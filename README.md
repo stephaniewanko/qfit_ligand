@@ -57,7 +57,7 @@ The main program that comes with installing `qfit_ligand` is the eponymously nam
 `qfit_ligand` command line tool. It has two calling interfaces
 
     qfit_ligand <CCP4-map> <resolution> <PDB-of-ligand> -r <PDB-of-receptor>
-    qfit_ligand <CCP4-map> <resolution> <PDB-of-ligand-and-receptor> --selection <chain>,<resi>
+    qfit_ligand <CCP4-map> <PDB-of-ligand-and-receptor> <chain>,<resi> -r <resolution>
 
 where `<CCP4-map>` is a 2mFo-DFc electron density map in CCP4 format, and
 `<resolution>` is its corresponding resolution in angstrom. In the first
